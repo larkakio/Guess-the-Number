@@ -18,7 +18,7 @@ Deploy the contract (set an RPC URL and private key via Foundry env), then set `
 
 **Deployed CheckIn (Base mainnet):** `0x68cece54F672dCdD470aAC02372d96452a5087a3` — already referenced in `web/.env.example` and `web/.env.local`.
 
-**Production app:** [https://guess-the-number-self-eight.vercel.app](https://guess-the-number-self-eight.vercel.app) · Base App ID `69dcab4bed56423f0cd3e6ea` (meta `base:app_id` via `NEXT_PUBLIC_BASE_APP_ID`).
+**Production app:** [https://guess-the-number-self-eight.vercel.app](https://guess-the-number-self-eight.vercel.app) · Base App ID `69dcab4bed56423f0cd3e6ea` (meta `base:app_id` via `NEXT_PUBLIC_BASE_APP_ID`). Builder Code `bc_hh8fbr19` (`NEXT_PUBLIC_BUILDER_CODE`).
 
 ## Requirements summary
 
