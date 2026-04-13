@@ -19,8 +19,12 @@ const bodySans = DM_Sans({
   weight: ["400", "500", "600"],
 });
 
-const baseAppId = process.env.NEXT_PUBLIC_BASE_APP_ID ?? "";
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+/** Fallbacks match production Vercel + Base dashboard so meta verifies if env is missing in CI. */
+const baseAppId =
+  process.env.NEXT_PUBLIC_BASE_APP_ID ?? "69dcab4bed56423f0cd3e6ea";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://guess-the-number-self-eight.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
